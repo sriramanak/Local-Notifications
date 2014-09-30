@@ -14,13 +14,14 @@
 		8A20DCBA19DABCA30037D292 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A20DCB919DABCA30037D292 /* main.m */; };
 		8A20DCBE19DABCA30037D292 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A20DCBD19DABCA30037D292 /* AppDelegate.m */; };
 		8A20DCC119DABCA30037D292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A20DCBF19DABCA30037D292 /* Main.storyboard */; };
-		8A20DCC419DABCA30037D292 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A20DCC319DABCA30037D292 /* ViewController.m */; };
 		8A20DCC619DABCA30037D292 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A20DCC519DABCA30037D292 /* Images.xcassets */; };
 		8A20DCCD19DABCA30037D292 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A20DCCC19DABCA30037D292 /* XCTest.framework */; };
 		8A20DCCE19DABCA30037D292 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A20DCAD19DABCA20037D292 /* Foundation.framework */; };
 		8A20DCCF19DABCA30037D292 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A20DCB119DABCA20037D292 /* UIKit.framework */; };
 		8A20DCD719DABCA30037D292 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A20DCD519DABCA30037D292 /* InfoPlist.strings */; };
 		8A20DCD919DABCA30037D292 /* LocalNotificationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A20DCD819DABCA30037D292 /* LocalNotificationsTests.m */; };
+		8A20DCE419DAC0350037D292 /* ToDoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A20DCE319DAC0350037D292 /* ToDoListViewController.m */; };
+		8A20DCE719DAC04C0037D292 /* AddToDoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A20DCE619DAC04C0037D292 /* AddToDoListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		8A20DCBC19DABCA30037D292 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8A20DCBD19DABCA30037D292 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8A20DCC019DABCA30037D292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8A20DCC219DABCA30037D292 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8A20DCC319DABCA30037D292 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8A20DCC519DABCA30037D292 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8A20DCCB19DABCA30037D292 /* LocalNotificationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalNotificationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A20DCCC19DABCA30037D292 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8A20DCD419DABCA30037D292 /* LocalNotificationsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalNotificationsTests-Info.plist"; sourceTree = "<group>"; };
 		8A20DCD619DABCA30037D292 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8A20DCD819DABCA30037D292 /* LocalNotificationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalNotificationsTests.m; sourceTree = "<group>"; };
+		8A20DCE219DAC0350037D292 /* ToDoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoListViewController.h; sourceTree = "<group>"; };
+		8A20DCE319DAC0350037D292 /* ToDoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoListViewController.m; sourceTree = "<group>"; };
+		8A20DCE519DAC04C0037D292 /* AddToDoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddToDoListViewController.h; sourceTree = "<group>"; };
+		8A20DCE619DAC04C0037D292 /* AddToDoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddToDoListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +117,11 @@
 			children = (
 				8A20DCBC19DABCA30037D292 /* AppDelegate.h */,
 				8A20DCBD19DABCA30037D292 /* AppDelegate.m */,
+				8A20DCE219DAC0350037D292 /* ToDoListViewController.h */,
+				8A20DCE519DAC04C0037D292 /* AddToDoListViewController.h */,
+				8A20DCE619DAC04C0037D292 /* AddToDoListViewController.m */,
+				8A20DCE319DAC0350037D292 /* ToDoListViewController.m */,
 				8A20DCBF19DABCA30037D292 /* Main.storyboard */,
-				8A20DCC219DABCA30037D292 /* ViewController.h */,
-				8A20DCC319DABCA30037D292 /* ViewController.m */,
 				8A20DCC519DABCA30037D292 /* Images.xcassets */,
 				8A20DCB419DABCA20037D292 /* Supporting Files */,
 			);
@@ -249,7 +254,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A20DCC419DABCA30037D292 /* ViewController.m in Sources */,
+				8A20DCE719DAC04C0037D292 /* AddToDoListViewController.m in Sources */,
+				8A20DCE419DAC0350037D292 /* ToDoListViewController.m in Sources */,
 				8A20DCBE19DABCA30037D292 /* AppDelegate.m in Sources */,
 				8A20DCBA19DABCA30037D292 /* main.m in Sources */,
 			);

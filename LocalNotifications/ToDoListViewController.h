@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ToDoListViewController.h
 //  LocalNotifications
 //
 //  Created by paradigm creatives on 9/30/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ToDoListViewController : UITableViewController
 
 @end
